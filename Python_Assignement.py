@@ -67,3 +67,5 @@ datos_estudiante = {"last_notes": (8, 9, 10)} # Diccionario con tupla
 datos_estudiante["last_notes"] = datos_estudiante["last_notes"] + (7,) # Concatena el tuple original con el nuevo elemento
 
 print(datos_estudiante["last_notes"]) # (8, 9, 10, 7)
+
+
