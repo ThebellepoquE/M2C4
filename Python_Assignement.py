@@ -64,8 +64,8 @@ print(datos_estudiante["subjects"]) # ['Lists', 'Loops', 'Sets', 'Tuples']
 # Exercise 9: Use reassignment to add an element to your tuple.
 
 datos_estudiante = {"last_notes": (8, 9, 10)} # Diccionario con tupla
-datos_estudiante["last_notes"] = datos_estudiante["last_notes"] + (7,) # Concatena el tuple original con el nuevo elemento
+notas = datos_estudiante["last_notes"] # Asignar la tupla a una variable
+notas += (7,) # Crear un nuevo tuple con el nuevo elemento
+datos_estudiante["last_notes"] = notas # Concatena el tuple original con el nuevo elemento
 
 print(datos_estudiante["last_notes"]) # (8, 9, 10, 7)
-
-
